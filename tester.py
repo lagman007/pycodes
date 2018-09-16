@@ -1,7 +1,7 @@
 import json
 import os
 
-with open('config.json') as data_file:    
+with open('si_config.json') as data_file:    
  data = json.load(data_file)
 print(data["test"]["name"])
 string = data["test"]["description"]
