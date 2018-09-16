@@ -1,0 +1,35 @@
+{
+	"test": {
+		"name": "Can you count?",
+		"description": "This test will confirm whether this is so",
+		"question_count": 2
+	},
+	"results": {
+		"0": "Bad",
+		"1": "Good",
+		"2": "Excellent"
+	},
+	
+	"question_1": {
+		"description": "What's 2+2?",
+		"answers": {
+			"a": "6",
+			"b": "8",
+			"c": "4"
+		},
+		"acceptable": [
+		    "c"
+		]
+	},
+	"question_2": {
+		"description": "What's 2*2?",
+		"answers": {
+			"a": "4",
+			"b": "9",
+			"c": "7"
+		},
+		"acceptable": [
+			"a"
+		]
+	}
+}
