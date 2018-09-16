@@ -8,7 +8,7 @@ def show_about():
  messagebox.showinfo("О программе", "Переводчик в СИ\nВерсия 1.1\nАртём Лазарев, 2018\nУтилита предназначенная для перевода стороних единиц в единицы системы СИ.")
  
 def translate():    
- with open("config.json") as data_file:
+ with open("si_config.json") as data_file:
   data = json.load(data_file)
  try:
   unit_name = data[amount.get()]['default']
