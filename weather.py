@@ -2,7 +2,7 @@ from tkinter import *
 from tkinter import messagebox
 import requests, bs4, os
 def about():
- messagebox.showinfo("О программе", "Погода (sinoptic.com.ru)\nВерсия 2.1\nАртём Лазарев, 2018\nУтилита предназначенная для получении информации о погоде в определёном городе.")
+ messagebox.showinfo("О программе", "Погода (sinoptic.com.ru)\nВерсия 2.1\nУтилита предназначенная для получении информации о погоде в определёном городе.")
 def show_message():
  s=requests.get('https://sinoptik.com.ru/погода-'+message.get())
  b=bs4.BeautifulSoup(s.text, "html.parser")
