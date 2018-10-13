@@ -1,7 +1,7 @@
 from tkinter import *
 from tkinter import messagebox
 def about():
- messagebox.showinfo("О программе", "Переводчик в римские цифры\nВерсия 2.1\nАртём Лазарев, 2018\nУтилита предназначенная для перевода чисел в римские цифры.")
+ messagebox.showinfo("О программе", "Переводчик в римские цифры\nВерсия 2.1\nУтилита предназначенная для перевода чисел в римские цифры.")
 def show_message():
  time_list = list(time.get())
  tl_count = len(time_list)
