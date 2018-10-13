@@ -2,7 +2,7 @@ from tkinter import *
 from tkinter import messagebox
 import os
 def show_about():
- messagebox.showinfo("О программе", "Переводчик раскладки клавиатуры\nВерсия 1.1\nАртём Лазарев, 2018\nУтилита предназначенная для перевода раскладки клавиатуры")
+ messagebox.showinfo("О программе", "Переводчик раскладки клавиатуры\nВерсия 1.1\nУтилита предназначенная для перевода раскладки клавиатуры")
 def show_message():
  state = var.get()
  if state == False:
