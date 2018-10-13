@@ -2,7 +2,7 @@ from tkinter import *
 from tkinter import messagebox
 import os
 def show_about():
- messagebox.showinfo("О программе", "Переводчик в римские цифры\nВерсия 1.1\nАртём Лазарев, 2018\nУтилита предназначенная для перевода чисел в римские цифры.")
+ messagebox.showinfo("О программе", "Переводчик в римские цифры\nВерсия 1.1\nУтилита предназначенная для перевода чисел в римские цифры.")
 def show_message():
   roman = {
 	        1:"I",
